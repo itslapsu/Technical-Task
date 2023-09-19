@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/etotvoyassilka/static/css/main.17439dc6.css",
+    "main.js": "/etotvoyassilka/static/js/main.a8c6c05a.js",
+    "index.html": "/etotvoyassilka/index.html",
+    "main.17439dc6.css.map": "/etotvoyassilka/static/css/main.17439dc6.css.map",
+    "main.a8c6c05a.js.map": "/etotvoyassilka/static/js/main.a8c6c05a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17439dc6.css",
+    "static/js/main.a8c6c05a.js"
+  ]
+}
