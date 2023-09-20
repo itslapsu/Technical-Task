@@ -16,8 +16,9 @@ export default function RouteScreens() {
       <Router>
         <Header />
         <Routes>
-          <Route exact path="/task3" element={<WebForm />} />
-          <Route exact path="task4" element={<Slider />} />
+          <Route exact path="/" element={<WebForm />} />
+          <Route exact path="/Technical-Task/task3" element={<WebForm />} />
+          <Route exact path="/Technical-Task/task4" element={<Slider />} />
         </Routes>
       </Router>
       <Outlet />
