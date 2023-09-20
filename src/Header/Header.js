@@ -8,12 +8,12 @@ export const Header = () => {
       <div className="header">
         <ul className="item-list">
           <li className="item">
-            <NavLink className="link" to={"/task3"}>
+            <NavLink className="link" to={"/Technical-Task/task3"}>
               Task 3
             </NavLink>
           </li>
           <li className="item">
-            <NavLink className="link" to={"/task4"}>
+            <NavLink className="link" to={"/Technical-Task/task4"}>
               Task 4
             </NavLink>
           </li>
