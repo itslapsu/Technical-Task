@@ -1,7 +1,7 @@
-import { WebForm } from "./WebForm/WebForm";
+import RouteScreens from "./RouteScreens";
 
 function App() {
-  return <WebForm />;
+  return <RouteScreens />;
 }
 
 export default App;

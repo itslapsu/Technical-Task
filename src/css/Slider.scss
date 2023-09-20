@@ -1,0 +1,57 @@
+.img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.task4-wrapper {
+  overflow: hidden;
+  font-family: Roboto;
+}
+
+.content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  &_text {
+    color: #fff;
+    font-size: 24px;
+  }
+
+  &_button {
+    all: unset;
+    background-color: #fff;
+    padding: 5px 10px;
+    color: #3b3b3b;
+    border-radius: 5px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.slider1,
+.slider2 {
+  position: relative;
+}
+
+.swiper-slide {
+  .content {
+    display: none;
+  }
+
+  &:hover {
+    .content {
+      display: block;
+    }
+  }
+}
